@@ -13,6 +13,7 @@ always been ignored due to the lack of publicly available, open and transparent
 data. Million Song Dataset Challenge provides data which is open and largescale
 which facilitates academic research in usercentric music recommender system
 which hasn’t been studied a lot.
+
 ---
 
 <h1> Description</h1>
@@ -23,12 +24,14 @@ predicting the songs that a user is going to listen. We learn from users listeni
 history and full information of all songs (metadata, audio content analysis and
 standardized identifiers). Our goal is make our system largescale and more
 personal to users.
+
 ---
 
 <h1> Project approach </h1>
 We propose following algorithms for our task1. Popularity based
 The most trivial recommendation algorithm is to simply present each song
 in descending order of its popularity skipping those songs already consumed by the user, regardless of the user’s taste profile.
+
 ---
 
 <h1> Same artist greatest hits </h1>
@@ -36,6 +39,7 @@ in descending order of its popularity skipping those songs already consumed by t
 This simply produces the most popular songs by artists that the user
 has already listened to. This gives some level of personalization in the
 recommendation system.
+
 ---
 
 <h1> Collaborative Filtering </h1>
@@ -46,6 +50,7 @@ and will probably listen to the same songs in future. In the item-based
 recommendation strategy, songs that are often listened by the same user
 tend to be similar and are more likely to be listened together in future by
 some other user.
+
 ---
 
 <h1> Latent factor model </h1>
@@ -56,6 +61,7 @@ and we need to infer those so called latent factors from the rating data.
 Users and songs are characterized by latent factors and a latent factor
 model such as Singular Value Decomposition (SVD) can decompose rating
 matrix into the product of a user feature and an item(song) feature matrix.
+
 ---
 
 <h1> Dataset /h1>
@@ -64,6 +70,7 @@ We would be using the database provided by Kaggle competition, refer
 https://www.kaggle.com/c/msdchallenge/data
 It includes metadata (e.g., artist identifiers, tags,etc) , audio content analysis
 and standardized identifiers.
+
 ---
 
 <h1> References </h1>
